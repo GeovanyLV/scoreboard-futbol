@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Cinzel:wght@600&display=swap" rel="stylesheet">
+    <title>ScoreBoard</title>
+
+</head>
+<body>
+        
+   <div class="title">
+        <h1>SCOREBOARD</h1>
+    </div>Z
+    <div class="container">
+       
+        <div class="score">
+            <h2>Local</h2>
+            <p id="scoreLocal">0</p>
+            <button class="btn-golLocal" onclick="golLocal()">GOL</button>
+            <button class="btn-anularLocal" onclick="nullLocal()">ANULAR</button>
+        </div>
+        <div class="score">
+            <h3>Periodo</h3>
+            <p id="pt">--</p>
+            <button class="btn-per"  onclick="pt()">PT</button>
+            <button class="btn-per"  onclick="st()">ST</button>
+
+        </div>
+        <div class="score">
+            <h2>Visita</h2>
+            <p id="scoreVisit">0</p>
+            <button class="btn-golVisita" onclick="golVisit()">GOL</button>
+            <button class="btn-anularVisita" onclick="nullVisit()">ANULAR</button>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

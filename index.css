@@ -1,0 +1,77 @@
+body{
+   margin: 0;
+   padding: 0;
+   font-family: 'Black Ops One', cursive;
+   background-image: url(fondo.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+
+}
+
+h1{
+    text-align: center;
+    font-size: 48px; 
+    color: aliceblue; 
+    animation-name: typewriter ;
+    animation-duration: 4s;  
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+
+
+}
+.score{
+    background: #c31432;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    border:none;
+    text-align: center;
+    font-size: 48px;
+    margin: auto;
+    padding: 24px;  
+    margin-top: 20px;
+    color: aliceblue;
+
+
+}
+p{
+    font-size:70px;
+}
+button{
+    font-size: 24px;
+    padding: 6px;
+    border-radius: 10px;
+    border: none;
+}
+.btn-golLocal,.btn-golVisita{
+    background-color: green;
+    color: white;
+}
+.btn-anularVisita, .btn-anularLocal{
+    background-color: rgb(255, 157, 0);
+    color: #240b36;
+}
+.btn-per{
+    background-color: darkblue;
+    color: white;
+}
+button:hover{
+    font-weight: bolder;
+    cursor: pointer;
+}
+.score:hover{
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(255,255,255,0.22);
+-moz-box-shadow: 10px 10px 5px 0px rgba(255,255,255,0.22);
+box-shadow: 10px 10px 5px 0px rgba(255,255,255,0.22);
+}
+
+h1:hover{
+   cursor: pointer;
+   color:antiquewhite;
+  
+}
